@@ -1,0 +1,106 @@
+/* font-family: 'Oleo Script', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+#hero {
+    height: 800px;
+    background-image: url("/Images/places/outdoor-swimming-pool.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    /* border-radius: 0 0 25% 25%; */
+    /* margin-bottom: 50px; */
+
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 0px 50px 0px 50px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+}
+
+#hero-content h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+#hero-content p {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: #ed1c24;
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+
+}
+
+#hero-content a:hover {
+    background-color: #c4191f;
+
+}
+#highlights {
+    padding: 30px;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+
+}
+
+#destination-highlights{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+.destinations{
+    margin: 0 20px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.destinations img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 1px 2px 4px rgb(68, 67, 67);
+    border-radius: 0px 10px 0 10px;
+    object-fit: cover;
+}
+
+.destinations p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destinations strong{
+    color: rgb(0, 160, 117);
+}
+
