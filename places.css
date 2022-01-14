@@ -8,24 +8,71 @@ header {
     height: 70px;
 }
 
-main ul{
-    margin: 0 auto;
-    width: 800px;
-    
-
+header a{
+    color: rgb(183, 230, 235);
 }
 
-main li{
+header nav a:hover{
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
+main ul {
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    margin: 0 auto 48px auto;
+
+    
+}
+
+li:nth-of-type(3){
+    grid-column: 1 / span 2;
+}
+li:nth-of-type(6){
+    grid-column: 1 / span 2;
+}
+
+
+main li {
     display: flex;
     background-color: white;
+    overflow: hidden;
+    border-radius: 0px 10px 0 10px;
+    color: rgb(68, 67, 67);
+    width: 100%;
 }
 
 main li img {
     width: 300px;
     height: 280px;
-
+    object-fit: cover;
 }
 
-.card-content{
+.card-content {
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-actions{
+    text-align: end;
+}
+
+.explore-link{
+    text-decoration: none;
+    color: rgb(22, 211, 228);
+    padding: 10px 25px;
+    border-radius: 8px;
+    
+}
+
+.explore-link:hover{
+    background-color: rgb(235, 253, 255);
+    /* color: rgb(61, 56, 56); */
+
 }
