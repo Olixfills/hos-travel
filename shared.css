@@ -41,7 +41,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-ul a{
+nav a{
     text-decoration: none;
     color: #ed1c24;
     font-size: 20px;
@@ -50,7 +50,7 @@ ul a{
     border-radius: 8px;
     font-weight: bold;
 }
-ul a:hover{
+nav a:hover{
     color: rgb(77, 77, 77);
     background-color: #ed1c24;
 }
